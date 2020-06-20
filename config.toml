@@ -13,9 +13,10 @@ theme = "jane"
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5              # Number of articles displayed on the homepage  # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
-disqusShortname = ""      # disqus_shortname
+disqusShortname = "wheegoo" # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 # Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
 pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
@@ -70,20 +71,32 @@ pygmentsOptions = "linenos=table"
   logoTitle = "伟哥的空间站"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["programming","reading","sport"]
   description = "A space for wheegoo to rest memories"
+  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目
+  archive-paginate = 1000
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
+  moreMeta = true
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
   toc = true                                                                            # 是否开启目录
+  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用fancybox（图片可点击）
   photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
+  mathjax = false            # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
+  linkToMarkDown = false    # if you config contentCopyright and hugo output .md files. # 是否在链接到markdown原始文件（如果你配置了下面的许可协议并允许hugo生成markdown文件）
+
+  contentCopyright = '<span>文章采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可，转载请注明原文链接。</span>'
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
+  customCSS = ['custom.css']            # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = ['custom.js']             # if ['custom.js'], load '/static/js/custom.js' file
+
+  #[params.gitInfo]
+  #  gitRepo = "https://github.com/David-Jin/myBlog"
+  #  showCommitMessage = false
 
   [params.social]                                         # 社交链接
     a-email = "mailto:wheegoo@gmail.com"
