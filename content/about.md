@@ -14,4 +14,4 @@ draft: false
 
 好游泳，奏乐器，喜读书。 
 
-{{< figure src="/image/about/me.jpeg" title="" caption="2019年10月摄于庐山瀑布" >}}
+{{< figure src="/image/about/me.jpeg" title="" caption="2019年1月摄于圣莫妮卡海滩" >}}
