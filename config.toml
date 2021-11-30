@@ -98,7 +98,7 @@ uglyURLs = false
     # 座右铭或简介
     motto = "好奇心让生活变得有意思"
     # 头像
-    avatar = "/icons/taiji.png"
+    avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
     website = "https://www.wheegoo.com/"
     # 推特
@@ -267,7 +267,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 1.3
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -323,7 +323,7 @@ uglyURLs = false
     # 站点信息
 
     # 站点的 LOGO
-    siteLogo = "/icons/taiji.png"
+    siteLogo = "/icons/apple-touch-icon.png"
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
@@ -913,7 +913,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 16
+    fontSize = 18
 
     ######################################
     ## 制表符的宽度
