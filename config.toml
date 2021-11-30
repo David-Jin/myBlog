@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "http://www.wheegoo.com"
-title = "Wheegoo的空间站"
+title = "Wheegoo 的空间站"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
