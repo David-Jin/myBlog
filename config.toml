@@ -98,7 +98,7 @@ uglyURLs = false
     # 座右铭或简介
     motto = "好奇心让生活变得有意思"
     # 头像
-    avatar = "/icons/太极.png"
+    avatar = "/icons/taiji.png"
     # 网站（默认值：baseURL）
     website = "https://www.wheegoo.com/"
     # 推特
@@ -323,7 +323,7 @@ uglyURLs = false
     # 站点信息
 
     # 站点的 LOGO
-    siteLogo = "/icons/太极.png"
+    siteLogo = "/icons/taiji.png"
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
