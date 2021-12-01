@@ -327,7 +327,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "保持思考，一个记录我的想法的地方"
+    siteDescription = "一个记录我的想法的地方"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -938,7 +938,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 分段样式（全局设置）
-    paragraphStyle = "indent"
+    paragraphStyle = "margin"
     # 说明：段间距式（margin）或段首缩排（indent）
     #      文章的 Front Matter 中的 `indent`
     #      的优先级高于此处
@@ -1081,8 +1081,8 @@ uglyURLs = false
     shareOnFacebook = false
     shareOnLinkedIn = false
     shareOnTelegram = false
-    shareOnWeibo = true
-    shareOnDouban = true
+    shareOnWeibo = false
+    shareOnDouban = false
     shareOnQQ = false
     shareOnQzone = false
 
@@ -1111,7 +1111,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = true
+    enablePostTags = false
 
     # 标签的图标
     postTagsIcon = "tag"
